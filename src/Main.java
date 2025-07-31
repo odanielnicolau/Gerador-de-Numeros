@@ -8,12 +8,22 @@ public class Main {
         int i = 0;
 
         // while(true) -> loop infinito.
+        // while (i < 6) -> loop com saída.
 
-        while (i < 6) {
+        // while (i < 6) {
+        //     int number = generate.nextInt(60);
+        //     System.out.println(number);
+        //     i = i + 1; // ou você pode colocar "i++"
+        // }
+
+        // Também podemos utilizar o "for"
+        for (int x = 0; x < 10; x++) {
             int number = generate.nextInt(60);
-
             System.out.println(number);
-            i= i+1; //ou você pode colocar o código "i++", que terá a mesma função.
         }
-    }
+
+    } // <- aqui fecha o main corretamente
 }
+
+
+
