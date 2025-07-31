@@ -17,12 +17,13 @@ public class Main {
         // }
 
         // Também podemos utilizar o "for"
+        // Se quiser utilizar "for" de forma infinita: for (;;)
         for (int x = 0; x < 10; x++) {
             int number = generate.nextInt(60);
             System.out.println(number);
         }
 
-    } // <- aqui fecha o main corretamente
+    }
 }
 
 
